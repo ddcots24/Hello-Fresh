@@ -19,10 +19,10 @@
     - **It is important to also capture the sentiment of the text transcripts of these calls and the emails.**
 - HelloFresh can use a sentimental analysis from a natural language processing model to capture these missed sentiments to help cast a wider net on reviews which can overall help company performance and brand reputation.
 ## Data Understanding 
-- The image classification data comes from [Mendley Data](https://data.mendeley.com/datasets/nhs6mjg6yy/1).
+- The **image classification data** comes from [Mendley Data](https://data.mendeley.com/datasets/nhs6mjg6yy/1).
 - It has about 3000 images of raw beef; some being fresh and some being rotten.
 - Some potential limitations are the amount of data I have; it could be more accurate with more training data.
-- The text classification data I received comes from [Trustpilot](https://www.trustpilot.com/review/hellofresh.com). Trustpilot is an online review community that connects businesses and consumers through genuine feedback from customers about their buying and service experiences. 
+- The **text classification data** I received comes from [Trustpilot](https://www.trustpilot.com/review/hellofresh.com). Trustpilot is an online review community that connects businesses and consumers through genuine feedback from customers about their buying and service experiences. 
 - The raw data from Trustpilot is important because to be able to run a sentimental analysis, you need a good amount of reviews of text and a target.
 - There are over 40,000 reviews which give me more than plenty of data to make a NLP model.
 - Aside from the text, I used topic modeling to make the data more robust and try and find deeper underlying reasons.
@@ -63,5 +63,19 @@
       - If a piece of rotten beef is classified as fresh and then sent out to the consumer that could scar the reputation of HelloFresh.
       - On the other hand, if a fresh piece of meat is classified as rotten and thrown out, you are just pouring money down the drain.
       - Both sides of the coin are important and taken into consideration.
-- Quality assurance for food is one of the first steps in an online food service business; to be able to streamline that with my model can be a time and money saver. 
-                  **Quality assurance is also very important to uphold a companies reputation. Reputation is conveyed through customer reviews**
+- Quality assurance for food is one of the first steps in an online food service business; to be able to streamline that with my model can be a time and money saver.
+
+                  **Quality assurance is also very important to uphold a companies reputation. Reputation is conveyed through customer reviews.**
+## Text Classification
+### Webscraping
+- Scraped Trustpilot HelloFresh site.
+- Scraped over 40,000 reviews.
+- Manipulated data into positive and negative sentiments.
+      - Positive sentiments were 4-5 star reviews.
+      - Negative sentiments were 1-3 star reviews.
+### Topic Modeling
+- Ran a Non-negative Matrix Factorization Model to split the review text data into topics.
+- Found the top 25 words in each topic.
+
+![image](https://github.com/ddcots24/Hello-Fresh/assets/131708046/26cee01d-787b-4d13-979f-ea0f4d028d35)
+
