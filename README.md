@@ -59,4 +59,9 @@
 
 ![image](https://github.com/ddcots24/Hello-Fresh/assets/131708046/3acef9e8-1da2-4f58-a22e-fddde01d8108)
 
-
+- Accuracy is very important instead of using just precision or a recall score because of the potential consequences.
+-     If a piece of rotten beef is classified as fresh and then sent out to the consumer that could scar the reputation of HelloFresh.
+-     On the other hand, if a fresh piece of meat is classified as rotten and thrown out, you are just pouring money down the drain.
+-     Both sides of the coin are important and taken into consideration.
+- Quality assurance for food is one of the first steps in an online food service business; to be able to streamline that with my model can be a time and money saver. 
+## Quality assurance is also very important to uphold a companies reputation
