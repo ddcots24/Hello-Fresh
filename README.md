@@ -43,3 +43,20 @@
 - Distribution of rgb values for a fresh image - more normally distributed
   
 ![image](https://github.com/ddcots24/Hello-Fresh/assets/131708046/c9ad5d33-340c-4854-b204-21b26dcf17cc)
+
+### Modeling (Convolutional Neural Network)
+- Model training loss
+
+![image](https://github.com/ddcots24/Hello-Fresh/assets/131708046/995b576c-235b-48ab-9c8d-83b0b53689ac)
+
+- Model Training accuracy
+
+![image](https://github.com/ddcots24/Hello-Fresh/assets/131708046/bd5e5574-844c-4f1a-8a5a-a5926a486e7b)
+
+- Model test accuracy score was 99.8%
+
+- Confusion Matrix
+
+![image](https://github.com/ddcots24/Hello-Fresh/assets/131708046/3acef9e8-1da2-4f58-a22e-fddde01d8108)
+
+
