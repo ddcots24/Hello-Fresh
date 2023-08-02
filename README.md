@@ -65,7 +65,8 @@
       - Both sides of the coin are important and taken into consideration.
 - Quality assurance for food is one of the first steps in an online food service business; to be able to streamline that with my model can be a time and money saver.
 
-                  **Quality assurance is also very important to uphold a companies reputation. Reputation is conveyed through customer reviews.**
+**Quality assurance is also very important to uphold a companies reputation. Reputation is conveyed through customer reviews.**
+
 ## Text Classification
 ### Webscraping
 - Scraped Trustpilot HelloFresh site.
