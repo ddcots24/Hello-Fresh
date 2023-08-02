@@ -1,5 +1,6 @@
 # Hello-Fresh
 ## Business Understanding
+- StakeHolder - **HelloFresh**
 - Society as a whole has been trending to delivery services so it saves "you" the consumer time and lessens human interaction.
     - We see this in many facets of life i.e (Car Services, online food ordering services and, reservation services) .
 - HelloFresh takes a different approach than online food delivery like Fresh Direct.
