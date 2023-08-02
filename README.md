@@ -22,7 +22,7 @@
 - The **image classification data** comes from [Mendley Data](https://data.mendeley.com/datasets/nhs6mjg6yy/1).
 - It has about 3000 images of raw beef; some being fresh and some being rotten.
 - Some potential limitations are the amount of data I have; it could be more accurate with more training data.
-- The **text classification data** I received comes from [Trustpilot](https://www.trustpilot.com/review/hellofresh.com). Trustpilot is an online review community that connects businesses and consumers through genuine feedback from customers about their buying and service experiences. 
+- The **text classification data** I accumulated comes from [Trustpilot](https://www.trustpilot.com/review/hellofresh.com). Trustpilot is an online review community that connects businesses and consumers through genuine feedback from customers about their buying and service experiences. 
 - The raw data from Trustpilot is important because to be able to run a sentimental analysis, you need a good amount of reviews of text and a target.
 - There are over 40,000 reviews which give me more than plenty of data to make a NLP model.
 - Aside from the text, I used topic modeling to make the data more robust and try and find deeper underlying reasons.
@@ -78,4 +78,17 @@
 - Found the top 25 words in each topic.
 
 ![image](https://github.com/ddcots24/Hello-Fresh/assets/131708046/26cee01d-787b-4d13-979f-ea0f4d028d35)
+
+- Gave each topic a label name.
+    - Topic 1: Culinary experience
+    - Topic 2: Delivery service
+    - Topic 3: Recipe instructions
+    - Topic 4: General
+
+- Visualizing topic Segmentation
+
+![image](https://github.com/ddcots24/Hello-Fresh/assets/131708046/5bded08e-1afc-44b0-baa7-9e2ae4de3115)
+
+- The topics seem very segemented despite a little overlap with delivery service and culinary experience.
+
 
