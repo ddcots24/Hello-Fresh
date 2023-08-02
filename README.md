@@ -32,7 +32,7 @@
   
 ![image](https://github.com/ddcots24/Hello-Fresh/assets/131708046/ed294224-1cc3-40a0-813d-ded6e733722a)
 
-- Distribution of rgb values for a rotten image
+- Distribution of rgb values for a rotten image - skewed left
   
 ![image](https://github.com/ddcots24/Hello-Fresh/assets/131708046/c02543f1-c453-481a-8b72-b0cb2dcf38e0)
 
@@ -40,6 +40,6 @@
   
 ![image](https://github.com/ddcots24/Hello-Fresh/assets/131708046/83e815d1-da62-4ced-8fff-d233c89c106e)
 
-- Distribution of rgb values for a fresh image
+- Distribution of rgb values for a fresh image - more normally distributed
   
 ![image](https://github.com/ddcots24/Hello-Fresh/assets/131708046/c9ad5d33-340c-4854-b204-21b26dcf17cc)
