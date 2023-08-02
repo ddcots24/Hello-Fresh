@@ -59,6 +59,7 @@
 
 ![image](https://github.com/ddcots24/Hello-Fresh/assets/131708046/3acef9e8-1da2-4f58-a22e-fddde01d8108)
 
+### Evaluation
 - Accuracy is very important instead of using just precision or a recall score because of the potential consequences.
       - If a piece of rotten beef is classified as fresh and then sent out to the consumer that could scar the reputation of HelloFresh.
       - On the other hand, if a fresh piece of meat is classified as rotten and thrown out, you are just pouring money down the drain.
@@ -72,8 +73,8 @@
 - Scraped Trustpilot HelloFresh site.
 - Scraped over 40,000 reviews.
 - Manipulated data into positive and negative sentiments.
-      - Positive sentiments were 4-5 star reviews.
-      - Negative sentiments were 1-3 star reviews.
+    - Positive sentiments were 4-5 star reviews.
+    - Negative sentiments were 1-3 star reviews.
 ### Topic Modeling
 - Ran a Non-negative Matrix Factorization Model to split the review text data into topics.
 - Found the top 25 words in each topic.
@@ -91,5 +92,27 @@
 ![image](https://github.com/ddcots24/Hello-Fresh/assets/131708046/5bded08e-1afc-44b0-baa7-9e2ae4de3115)
 
 - The topics seem very segemented despite a little overlap with delivery service and culinary experience.
+- I Incorporated this topic modeling as features for the Natural Language Process (NLP) modeling.
+
+### Modeling
+- Best model was a hyperparameter-tuned logistic regression model.
+- Test accuracy score of 88%
+
+Confusion Matrix
+
+![image](https://github.com/ddcots24/Hello-Fresh/assets/131708046/4b6be2e5-7147-4c88-8c0d-56c0f9487df1)
+
+ROC-AUC-Curve
+
+![image](https://github.com/ddcots24/Hello-Fresh/assets/131708046/7a114206-d0c6-42a1-9e68-9ccc70a8d5b5)
+
+AUC of 94%!!!
+
+### Evaluation 
+- Accuracy is the best metric because you want a balance in this situation. You do not want to classify negative sentiment as positive and vice versa.
+- The model performed very well at predicting the positive class by making minimal errors. However, it made many mistakes predicting the positive class when the sentiment was negative.
+    - I can infer that this happened because I included many 3-star or neutral sentiments in the negative class when reality some of those neutral sentiments had some positive notion. This can inherently confuse the model.
+- In practicality, you can use this model to give positive or negative ratings to text reviews on websites that did not include stars in there ratings. You can also use this model to capture the sentiment of the text transcripts of phone calls and emails that don't use traditional review format.
+
 
 
