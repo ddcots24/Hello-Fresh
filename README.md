@@ -116,5 +116,5 @@ AUC of 94%!!!
 - In practicality, you can use this model to give positive or negative ratings to text reviews on websites that did not include stars in there ratings. You can also use this model to capture the sentiment of the text transcripts of phone calls and emails that don't use traditional review format.
 
 
-## [Presentaition](Hello_Fresh_Presentation.pdf)
+## [Presentation](Hello_Fresh_Presentation.pdf)
 
