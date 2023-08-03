@@ -121,7 +121,3 @@ AUC of 94%!!!
 - The model performed very well at predicting the positive class by making minimal errors. However, it made many mistakes predicting the positive class when the sentiment was negative.
     - I can infer that this happened because I included many 3-star or neutral sentiments in the negative class when reality some of those neutral sentiments had some positive notion. This can inherently confuse the model.
 - In practicality, you can use this model to give positive or negative ratings to text reviews on websites that did not include stars in there ratings. You can also use this model to capture the sentiment of the text transcripts of phone calls and emails that don't use traditional review format.
-
-
-## [Presentation](Hello_Fresh_Presentation.pdf)
-
