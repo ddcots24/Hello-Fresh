@@ -1,7 +1,7 @@
 # Repo Navigation
 - First file is git ignore where we ignore jpg images for image classification data. **This is important because file size is too large**
 - "Hello Fresh Review Analysis.ipynb" NLP review text classification notebook
-- "Hello_Fresh.ipynb" Beef image classification notebook
+- "[Hello_Fresh.ipynb](Hello_Fresh.ipynb)" Beef image classification notebook
 - Other files can be ignored
 
 # Hello-Fresh
